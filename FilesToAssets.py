@@ -3,12 +3,14 @@
 Created on Mon Sep 20 14:51:00 2021
 
 @author: lovro
-@version 0.1.0
+@version 0.1.1
 """
 from os.path import join
 from glob import glob
 
-Directory = 'C:/Users/lovro/OneDrive/Pictures/Games Screens/Done'
+# Directory = 'C:/Users/lovro/OneDrive/Pictures/Games Screens/Done'
+Directory = 'C:/Users/lovro/OneDrive/Pictures/Games Screens/Done_decals'
+# Directory = 'C:/Users/lovro/OneDrive/Pictures/Games Screens/Gates'
 files = []
 ext = ['*.png', '*.jpg']
 template = '{ srcName: {}, name: {} },\n'
